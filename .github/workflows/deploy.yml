@@ -4,10 +4,10 @@ on:
     branches: [main]
 
 env:
-  PROJECT_ID: <твой_project_id>
+  PROJECT_ID: simpleauthapp-382716
   REGION: europe-west1
   SERVICE_NAME: simple-auth-app
-  IMAGE: europe-west1-docker.pkg.dev/<твой_project_id>/apps/simple-auth-app
+  IMAGE: europe-west1-docker.pkg.dev/simpleauthapp-382716/apps/simple-auth-app
 
 jobs:
   deploy:
