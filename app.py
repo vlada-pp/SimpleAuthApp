@@ -176,7 +176,7 @@ HTML_TEMPLATE = """
     <div class="main-container">
         <div class="card">
             <h2>{{ title }}</h2>
-            <p class="subtitle">Пожалуйста, заполните форму ниже</p>
+            <p class="subtitle">Пожалуйста, заполните форму авторизации </p>
             
             <form action="{{ action }}" method="POST">
                 <div class="form-group">
